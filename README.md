@@ -36,7 +36,7 @@ The following chart indicates the relations between units of data. It uses Entit
 
 Note that the text between the units indicates what properties map to one another. It is separated by means of three underscores (`___`). The value before the underscores is the mapping from the parent object, whereas the values after the underscore is the mapping from the child object.
 
-_Note that is some cases there is no way to infer the parent from the child itself , in those cases just the parent map is noted, with no value after the underscores_.
+_Note that is some cases there is no way to infer the parent from the child itself, in those cases just the parent map is noted, with no value after the underscores_.
 
 ```mermaid
 erDiagram
@@ -122,17 +122,17 @@ Each completed story that is verified by lecturer will result in you receiving t
 
 - ✅Project is deployed to a custom Netlify URL
 
-- ✅ All views in the app display correct on the smallest mobile devices available “Iphone SE”. This can be emulated in Chrome Dev tools.
+- ✅ All views in the app display correctly on the smallest mobile devices available “Iphone SE”. This can be emulated in Chrome Dev tools.
 
 - ✅ All favicon information has been created an added correctly via [https://realfavicongenerator.net/](https://realfavicongenerator.net/) (you are welcome to use any free PNG image you find on [https://www.flaticon.com/](https://www.flaticon.com/))
 
-- ✅ All metatag information has been creataed and added via [https://metatags.io/](https://metatags.io/) (You are welcome to use any free image you find on [https://unsplash.com/](https://unsplash.com/)). Be mindful to manually replace all URL values (especially image URL) to absolute Netlify URL values (you will need to deploy to Netlify first)
+- ✅ All metatag information has been created and added via [https://metatags.io/](https://metatags.io/) (You are welcome to use any free images you find on [https://unsplash.com/](https://unsplash.com/)). Be mindful to manually replace all URL values (especially image URL) to absolute Netlify URL values (you will need to deploy to Netlify first)
 
 ---
 
 - ✅ All show data loaded via a `fetch` call from the `https://podcast-api.netlify.app/shows`
 - ✅ All data is loaded a `fetch` and no endpoint-specific data is hardcoded
-- ✅ When viewing a specific show data is loaded via `fetch` from individual show endpoint
+- ✅ When viewing a specific show, data is loaded via `fetch` from individual show endpoint
 - ✅ There is a loading state while initial data is being loaded
 - ✅ There is a loading state while new data is being loaded
 
@@ -162,7 +162,7 @@ Each completed story that is verified by lecturer will result in you receiving t
 
 - ✅ User is able to mark specific episodes as favourites so that they can find them again
 - ✅ User can visit a view where they see all their favourites
-- ✅ User is able to see the associated show and season when episode in favourite
+- ✅ User is able to see the associated show and season when episode in favourites
 - ✅ Related by season/show epsiodes are grouped together in favourites
 - ✅ User is able able to remove episodes from their favourites
 
@@ -185,12 +185,12 @@ Each completed story that is verified by lecturer will result in you receiving t
 
 ---
 
-- ✅ Audio player is always visible so that user can listen to episodes while I browse
+- ✅ Audio player is always visible so that user can listen to episodes while they browse
 - ✅ User receives a notification that confirms they want to close the page when audio is playing
 - ✅ App remembers what shows and episode user listened to last when returning to the platform
 - ✅ Automatically filters shows by a genre if the genre label is clicked on
 - ✅ App remembers and shows what episodes user listened all the way through
-- ✅ App remembers the exact timestamp where user stoped listening within a 10 seconds accuracy of closing
+- ✅ App remembers the exact timestamp where user stopped listening within a 10 seconds accuracy of closing
 - ✅ App remembers and shows the exact timestamp location of where I left off any episode
 
 ---
